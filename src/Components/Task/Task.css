@@ -6,6 +6,11 @@
   position: relative;
 }
 
+.task:hover {
+  transform: scale(1.02);
+  transition: 0.35s;
+}
+
 .task__text {
   margin: 0 0 0 5px;
 }
@@ -34,6 +39,11 @@
   border-radius: 5px 4px;
 }
 
+.task__done:hover {
+  opacity: 0.7;
+  transition: 0.7s;
+}
+
 .task__remove {
   margin-left: 10px;
   border: none;
@@ -44,6 +54,11 @@
   color: white;
   cursor: pointer;
   border-radius: 5px 4px;
+}
+
+.task__remove:hover {
+  opacity: 0.7;
+  transition: 0.7s;
 }
 
 @media screen and (max-width: 425px) {
