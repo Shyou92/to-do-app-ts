@@ -7,7 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import './Components/App/App.css';
+@import './Components/Main/Main.css';
+@import './Components/Header/Header.css';
+@import './Components/TaskList/TaskList.css';
+@import './Components/Task/Task.css';
+@import './Components/Input/Input.css';

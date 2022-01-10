@@ -1,0 +1,54 @@
+.task {
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+  padding: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.task__text {
+  margin: 0 0 0 5px;
+}
+
+.task__textContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 100px;
+  position: absolute;
+  top: 15%;
+  right: 3%;
+}
+
+.task__done {
+  border: none;
+  outline: none;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(1, 184, 129);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px 4px;
+}
+
+.task__remove {
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  width: 40px;
+  height: 30px;
+  background-color: rgb(184, 22, 1);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px 4px;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+}
